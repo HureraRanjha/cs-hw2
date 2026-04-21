@@ -1,0 +1,13 @@
+# Build artifacts
+*.o
+skeleton_code/skeleton_code/chat
+skeleton_code/skeleton_code/dh-example
+skeleton_code/skeleton_code/gen-key
+openssl-examples/openssl-examples/examples
+
+# Generated key material -- never commit private keys.
+# (keep params; that's public DH parameters required by the program)
+skeleton_code/skeleton_code/alice
+skeleton_code/skeleton_code/alice.pub
+skeleton_code/skeleton_code/bob
+skeleton_code/skeleton_code/bob.pub
